@@ -1,0 +1,1057 @@
+#lookup_details_nm {
+	padding: 50px 0px;
+}
+
+.nm-user-data {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 0px;
+}
+
+.nm-user-data h4 {
+	padding: 20px;
+	margin: 0px;
+	border: 1px solid #000;
+	color: #000;
+	font-size: 24px;
+}
+
+.nm-user-data h3 {
+	font-size: 24px;
+	color: #fff;
+	font-weight: 500;
+}
+
+.nm-user-data .card-header p {
+	color: #fff;
+}
+
+.nm-user-data p,
+.nm-sub-locations h5 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+}
+
+.nm-user-data .sim_address_row,
+.nm-sub-locations ul li {
+	font-size: 18px;
+	font-weight: 400;
+	color: #000;
+}
+
+.nm-sub-locations ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.not_found_ar {
+	font-size: 20px;
+	font-weight: 400;
+	color: #000;
+}
+
+.agency-details {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.agency-details .field {
+	width: calc(50% - 20px);
+	color: #000;
+}
+
+.sub-values {
+	margin-top: 15px;
+}
+
+.nm_disabled {
+	pointer-events: none;
+	opacity: 0.8;
+	background-color: grey !important;
+}
+
+#pagination_nm .nm_disabled {
+	border-radius: 50%;
+}
+
+.nmpl-18 {
+	padding-left: 18px;
+}
+
+.nmstatus_1.nm_disabled {
+	background-color: #80c342 !important;
+	opacity: 1;
+	color: white !important;
+}
+
+.nmstatus_0.nm_disabled {
+	background-color: #dc2626 !important;
+	opacity: 1;
+	color: white !important;
+}
+
+.nmattachment_status_update {
+	background-color: transparent !important;
+	color: #000 !important;
+	border-radius: 6px !important;
+}
+
+.nmattachment_status_update {
+	text-shadow: none;
+}
+
+.nmattachment_status_update:focus {
+	color: white !important;
+}
+
+.btn-accept:hover {
+	background-color: #80c342 !important;
+	color: white !important;
+}
+
+.btn-reject:hover {
+	background-color: #dc2626 !important;
+	color: white !important;
+}
+
+.hide_me_nm,
+.hide_nm_fields,
+.hide_by_default_nm {
+	display: none;
+}
+
+.nm_btn_toggle_btns label input {
+	display: none;
+}
+
+.nm_btn_toggle_btns label {
+	cursor: pointer;
+}
+
+.nm_btn_toggle_btns label {
+	font-family: var(--font-heading);
+	width: 140px;
+	font-size: var(--var-font-size-12px);
+	font-weight: var(--font-weight-bold);
+	cursor: pointer;
+	margin-right: var(--var-spacing-8px);
+	background-color: var(--color-white);
+	padding: 10px 20px;
+	border-radius: var(--var-radius-6px);
+	transition: 0.2s;
+	text-align: center;
+}
+
+.nm_btn_toggle_btns label.btn_yes_wrapper {
+	color: var(--status-info);
+	border: 1px solid var(--color-primary);
+}
+
+.nm_btn_toggle_btns label.btn_yes_wrapper:hover,
+.nm_btn_toggle_btns label.btn_yes_wrapper:has(input:checked) {
+	background-color: var(--status-info);
+	color: var(--color-white);
+}
+
+.nm_btn_toggle_btns label.btn_no_wrapper:hover,
+.nm_btn_toggle_btns label.btn_no_wrapper:has(input:checked) {
+	background-color: var(--status-danger);
+	color: var(--color-background-light);
+}
+
+.nm_btn_toggle_btns label.btn_no_wrapper {
+	color: var(--status-danger);
+	border: 1px solid var(--status-danger);
+}
+
+.nm_error {
+	border-color: #db3239 !important;
+}
+
+.upload-box.nm_error {
+	border: 2px dashed #db3239 !important;
+}
+
+.nm_error_message {
+	color: #db3239;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+	font-weight: 500;
+}
+
+.nm-remove-file {
+	position: absolute;
+	top: 0;
+	right: 0px;
+	width: 20px !important;
+	height: 20px !important;
+	padding: 5px !important;
+	font-size: 8px !important;
+}
+
+.nm-file-preview {
+	position: relative;
+}
+
+.content_wrappers_nm {
+	text-align: center;
+}
+
+.nm-file-thumb img {
+	max-width: 100px;
+}
+
+div#replace_request_formwrapper_ar .table-container,
+#replace_request_formwrapper_ar .table-container {
+	border: none;
+}
+
+#nm_detailed_logs .dot {
+	top: unset;
+}
+
+.log-subtext a {
+	line-break: anywhere;
+}
+
+/* Overlay */
+.nm_modal_wrapper {
+	display: none;
+	position: relative;
+}
+
+.show_modal_nm.nm_modal_wrapper {
+	display: block;
+}
+
+.nm-modal-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.45);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 999;
+}
+
+/* Modal */
+.nm-modal {
+	background: #ffffff;
+	width: 100%;
+	max-width: 560px;
+	border-radius: 14px;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+	animation: fadeUp 0.3s ease;
+}
+
+.nm-modal select {
+	height: 45px;
+}
+
+.nm-modal .frm_top_container {
+	margin-bottom: 0px !important;
+}
+
+.nm-modal,
+.nm-modal-body,
+.frm_form_fields {
+	overflow: hidden !important;
+}
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Header */
+.nm-modal-header {
+	background: linear-gradient(135deg,
+			var(--color-primary),
+			var(--color-primary));
+	padding: 20px 24px;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 14px 14px 0px 0px;
+}
+
+.nm-modal-header h2 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#close_btns_modal,
+#close_nm_modal,
+#close_send_email_nm {
+	background: rgba(255, 255, 255, 0.25);
+	border: none;
+	color: #ffffff;
+	padding: 0px;
+	font-size: 22px !important;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.nm-modal-close:hover {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.nm-modal .frm_combo_inputs_container .form-field:last-child {
+	margin-bottom: 0px;
+}
+
+#nm_modal_wrapper .nm-modal button.frm_button_submit.frm_final_submit {
+	background: linear-gradient(135deg,
+			var(--color-primary),
+			var(--color-primary));
+	font-size: 18px !important;
+	font-weight: 500;
+	padding: 10px 40px;
+	border-radius: 50px;
+	margin-bottom: 0px !important;
+}
+
+/* Body */
+.nm-modal-body {
+	padding: 24px;
+	background: #f6fbfd;
+	border-radius: 14px;
+	/* hide rounded corners */
+	overflow: hidden;
+}
+
+#nm_confirmation_modal .nm-modal-body {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+#nm_email_modal_wrapper input {
+	margin-bottom: 20px !important;
+}
+
+.nm-form-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 16px;
+}
+
+.nm-modal-body .frm_form_fields>fieldset {
+	padding-bottom: 0px !important;
+}
+
+.nm-modal .frm_fields_container .form-field:has(button.frm_button_submit) {
+	margin-bottom: 0px !important;
+}
+
+.nm-form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.nm-form-group.full {
+	grid-column: span 2;
+}
+
+.nm-form-group label {
+	font-size: 13px;
+	margin-bottom: 6px;
+	color: #2c3e50;
+	font-weight: 500;
+}
+
+.nm-modal-body input,
+.nm-modal-body textarea {
+	border-radius: 15px !important;
+}
+
+/* Unified close button styling using class */
+.nm-modal-header .nm-modal-close {
+	background: rgba(255, 255, 255, 0.25) !important;
+	border: none;
+	color: #ffffff !important;
+	padding: 0px;
+	font-size: 22px !important;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+
+.nm-form-group input:focus,
+.nm-form-group select:focus {
+	outline: none;
+	border-color: var(--color-primary);
+	box-shadow: 0 0 0 3px rgba(0, 155, 197, 0.15);
+}
+
+/* Footer */
+.nm-modal-footer {
+	padding: 16px 24px;
+	background: #ffffff;
+	display: flex;
+	justify-content: flex-end;
+	gap: 12px;
+	border-top: 1px solid #dceef4;
+}
+
+/* Pagination inside footer should be centered */
+.nm-modal-footer .nm-notes-pagination {
+	margin: 0px auto 0 auto;
+	/* top margin */
+	padding-top: 0px;
+	/* top padding */
+	border-top: 0px solid #dceef4;
+	/* top border line */
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+.nm-btn {
+	padding: 10px 18px;
+	border-radius: 999px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	border: none;
+}
+
+.nm-btn-secondary {
+	background: #e6f4f8;
+	color: var(--color-primary);
+}
+
+#nm_bhsd_logs,
+#nm_bhsd_documentation {
+	border: 1px solid var(--border-color);
+}
+
+#deny_fields_nm {
+	margin-bottom: 24px;
+}
+
+/* 
+pdf stylessss */
+.nm_letter_certficiations {
+	font-family: Helvetica;
+	padding: 30px 40px;
+	background-color: hsla(0, 0%, 50%, 0.071);
+
+
+}
+
+.nm_flex {
+	width: 100%;
+}
+
+.nm_logo {
+	float: left;
+	width: 50%;
+}
+
+.nm_ceos {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.nm_letter_certficiations table td {
+	background: transparent !important;
+	border: none !important;
+	padding: 0px !important;
+}
+
+.btn-approve {
+	text-transform: capitalize;
+}
+
+button#nm_save_letter {
+	margin-top: 20px;
+}
+
+span.btn-Approved {
+	background: var(--status-success);
+	padding: 5px 10px;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+}
+
+span.btn-Denied {
+	background: var(--status-danger);
+	padding: 5px 10px;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+}
+
+.nm_entry_expired {
+	background-color: var(--status-danger) !important;
+}
+
+.nm_entry_expired td {
+	background-color: transparent !important;
+}
+
+.nm_entry_expired td,
+.nm_entry_expired td a {
+	color: white !important;
+}
+
+/* .nm_click_not_allowed{
+	: none !important;
+} */
+
+.nm_warning_message_ar {
+	padding: 10px 20px;
+	background: rgba(220, 38, 38, 0.9);
+	color: white;
+	display: inline;
+	margin-top: 20px;
+}
+
+.log-text {
+	line-break: anywhere !important;
+}
+
+.providers-list {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 10px;
+}
+
+.providers-list h2 {
+	margin: 0px !important;
+}
+
+button#nm_exp_to_csv {
+	background: var(--color-primary);
+}
+
+.nm_disabled_btn {
+	background-color: grey !important;
+	cursor: not-allowed !important;
+	pointer-events: none !important;
+}
+
+/* customiser code here */
+.frm_save_draft {
+	color: var(--submit-bg-color);
+	background: var(--submit-text-color);
+	border-color: var(--submit-bg-color);
+	width: auto;
+	font-size: 14px;
+	height: auto;
+	line-height: normal;
+	text-align: center;
+	border-width: 1px;
+	border-color: #4199fd;
+	border-style: solid;
+	text-decoration: none !important;
+	cursor: pointer;
+	font-weight: normal;
+	border-radius: 8px;
+	text-shadow: none;
+	padding: 8px 16px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 1px #eeeeee;
+	margin: 20px;
+	vertical-align: middle;
+}
+
+.frm_save_draft:hover {
+	background: #3680d3;
+	border-color: #3680d3;
+	color: #ffffff;
+}
+
+.sc_cstmClass .wpsc-header.wpsc-hidden-xs,
+.sc_cstmClass .wpsc-ticket-list-tbl th {
+	background-color: #009bc5 !important;
+}
+
+.sc_cstmClass .wpsc-button.primary {
+	background-color: #db3239 !important;
+}
+
+.elementor-element-0b03c8b {
+	margin-left: 8px;
+}
+
+.slide_card:hover .slide-h2 h2 {
+	color: #ffffff !important;
+}
+
+.slide_card:hover .caro-butt a {
+	background: #ffffff !important;
+	color: #009bc5 !important;
+}
+
+.slide_card:hover svg.e-font-icon-svg.e-fas-arrow-circle-right {
+	fill: #009bc5 !important;
+}
+
+.elementor-button {
+	text-shadow: none !important;
+}
+
+.slide_card:hover path {
+	stroke: white;
+	stroke-dasharray: 2;
+}
+
+.slide_card:hover .slide_icon {
+	background-image: url("https://8996cd213a.nxcli.io/wp-content/uploads/2025/09/Group-1618873598-1.svg") !important;
+	background-position: center center;
+}
+
+.elementor-element.elementor-element-84bf3f4.elementor-widget.elementor-widget-image {
+	text-align: start;
+}
+
+.frm_rootline_group .frm_current_page span {
+	color: #1d2939;
+}
+
+.frm_rootline_single .frm_page_back {
+	background-color: #009bc5 !important;
+}
+
+.timeline-item ul li,
+.timeline-item .content {
+	font-size: 12px;
+}
+
+.elementor-widget-icon-list .elementor-icon-list-item>a {
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+.nat-res ul li {
+	flex-direction: row-reverse;
+	justify-content: space-between !important;
+}
+
+input#search-c3a1b0b {
+	max-width: 1030px;
+	border: none;
+	border-radius: 50px;
+}
+
+#search_form_icon {
+	position: relative;
+	cursor: pointer;
+	z-index: 11111;
+}
+
+.icon_button:hover a.elementor-button.elementor-button-link.elementor-size-sm rect {
+	fill: #80c342;
+}
+
+.icon_button2:hover .elementor-button .elementor-button-icon svg rect {
+	fill: #9561a8;
+}
+
+.slide_card:hover .slide-h2 h1 {
+	color: white !important;
+}
+
+.ul {
+	padding-left: 10px;
+}
+
+#email-button {
+	padding: 17px !important;
+}
+
+/* ///////////////
+
+/* ===== Root Card Layout ===== */
+.nm-user-data {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+	background: #f8fafb;
+
+	border-radius: 12px;
+}
+
+/* ===== Main Card ===== */
+.nm-user-data.card {
+	background: #ffffff;
+	/*   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06); */
+	border-radius: 14px;
+	overflow: hidden;
+}
+
+/* ===== Left Header Panel ===== */
+.nm-user-data .card-header {
+	background: linear-gradient(135deg, #009bc5, #65c7c2);
+	color: #ffffff;
+	padding: 16px;
+	border-radius: 12px;
+}
+
+.nm-user-data .card-header h3 {
+	margin-bottom: 16px;
+	font-size: 22px;
+}
+
+.nm-user-data .card-header p {
+	margin: 6px 0;
+	font-size: 14px;
+	opacity: 0.95;
+}
+
+.nm-user-data .card-header strong {
+	font-weight: 600;
+}
+
+/* Make the 3rd div full width */
+.nm-user-data>div:nth-child(3) {
+	grid-column: 1 / -1;
+}
+
+/* Agency Link */
+.nm-agency-link {
+	display: inline-block;
+	margin-top: 16px;
+	padding: 8px 14px;
+	background: #80c342;
+	color: #ffffff;
+	border-radius: 6px;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.nm-agency-link:hover {
+	background: #6aad35;
+}
+
+/* ===== Right Content Panel ===== */
+.nm-user-data .card-body {
+	padding: 24px;
+	background: #ffffff;
+}
+
+/* Section Titles */
+.nm-user-data .card-body>p>strong {
+	color: #009bc5;
+	font-size: 14px;
+}
+
+/* ===== Address Blocks ===== */
+.sim_address_field {
+	background: #f1f7f9;
+	border-left: 4px solid #65c7c2;
+	padding: 12px 14px;
+	margin: 8px 0 16px;
+	border-radius: 6px;
+	font-size: 13px;
+}
+
+.sim_address_row {
+	line-height: 1.6;
+	color: #333;
+}
+
+/* ===== Same Mailing Address Badge ===== */
+.nm-user-data p strong+span,
+.nm-user-data p {
+	font-size: 13px;
+}
+
+/* ===== Sub Locations Section ===== */
+.nm-sub-locations {
+	margin-top: 28px;
+}
+
+.nm-sub-locations h5 {
+	font-size: 16px;
+	color: #009bc5;
+	margin-bottom: 16px;
+	border-bottom: 2px solid #e6f3f7;
+	padding-bottom: 8px;
+}
+
+/* ===== Sub Location Cards ===== */
+.nm-sub-locations ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	gap: 16px;
+}
+
+.nm-sub-location-item {
+	background: #ffffff;
+	border: 1px solid #e4eff4;
+	border-radius: 10px;
+	padding: 16px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+	transition:
+		transform 0.2s ease,
+		box-shadow 0.2s ease;
+}
+
+.nm-sub-location-item:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Location Title */
+.nm-sub-location-item>strong {
+	color: #80c342;
+	font-size: 15px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.card-header a.nm-agency-link {
+	display: none;
+}
+
+/* Labels inside Sub Locations */
+.nm-sub-location-item span strong {
+	color: #009bc5;
+	font-size: 13px;
+}
+
+/* Address inside Sub Locations */
+.nm-sub-location-item .sim_address_field {
+	background: #f9fcfd;
+	border-left-color: #80c342;
+	margin-top: 6px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+	.nm-user-data {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Loader styless */
+.loader_nm {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	backdrop-filter: blur(2px);
+	background: rgba(255, 255, 255, 0.5);
+}
+
+#nm_loader_wrapper img {
+	max-width: 60px;
+}
+
+#nm_table_container_wrapper,
+.nm-document-preview-container {
+	position: relative;
+}
+
+.hide_this_loader_nm {
+	display: none !important;
+}
+
+.frm_nm_custom_submit_here button.frm_button_submit.frm_final_submit {
+	font-size: 16px !important;
+	font-weight: 500;
+}
+
+.frm_nm_custom_submit_here::before {
+	display: none !important;
+}
+
+#entry_details_nm_download {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+#entry_details_nm_download h2 {
+	margin: 0px !important;
+}
+
+.hide_me_form_ar {
+	display: none;
+}
+
+.nm_reviewer_wrapper {
+	width: 100%;
+	display: block;
+}
+
+.nm_secondary_filters {
+	display: flex;
+	gap: 20px;
+}
+
+.search_nm_input_filters {
+	position: relative;
+}
+
+.search_nm_input_filters img {
+	position: absolute;
+	right: 8px;
+	top: 10px;
+	width: 25px;
+	filter: contrast(0.3);
+	height: 25px;
+}
+
+.search_nm_input_filters input {
+	min-width: 230px;
+	text-transform: capitalize;
+	border-radius: 10px !important;
+	border: 1px solid hsla(0, 0%, 50%, 0.502) !important;
+}
+
+/* we docs stylings */
+.wedocs-single-wrap {
+	padding: 50px 20px;
+}
+
+.wedocs-single-wrap .widget-title {
+	font-size: 34px;
+}
+
+.wedocs-single-wrap a {
+	color: #000 !important;
+}
+
+.wedocs-single-wrap .entry-title {
+	font-weight: 600 !important;
+	color: #009bc5 !important;
+}
+
+.wedocs-single-wrap .article-child.well>h3 {
+	display: none;
+}
+
+.wedocs-single-wrap .article-child.well ul {
+	list-style-position: inside;
+}
+
+.wedocs-single-wrap .article-child.well ul li {
+	margin-bottom: 15px;
+	text-decoration: underline;
+}
+
+.wedocs-single-wrap .wedocs-sidebar ul.doc-nav-list li.current_page_item a {
+	background-color: #009bc5 !important;
+	color: white !important;
+}
+
+.wedocs-single-wrap .wedocs-single-content .wp-element-button {
+	background: #009bc5;
+	color: #fff !important;
+	font-weight: 800;
+}
+
+.wedocs-single-wrap .wedocs-single-content .wp-block-file>a {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.wedocs-single-wrap .wedocs-single-content .wp-block-file .wp-block-file__embed {
+	margin: 26px 0px 50px 0px;
+}
+
+#nm_bhsd_documentation .timeline {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+#nm_bhsd_documentation .timeline a {
+	padding: 10px 15px;
+	background: #009bc5;
+	color: white;
+	text-decoration: none;
+	border-radius: 30px;
+}
+
+ul.nm-entries-wrapper {
+	list-style-position: outside;
+	padding-left: 14px;
+	height: 400px;
+	overflow: auto;
+}
+
+ul.nm-entries-wrapper li {
+	font-size: 14px;
+}
+
+ul.nm-entries-wrapper .marked_unread_nm {
+	font-weight: 800;
+}
+
+/* ===== Notes Modal Loader ===== */
+/* Keep the initial-open loader gif small and centred inside the modal list */
+#nm_all_notes_list .loader_nm {
+	position: relative;
+	top: unset;
+	left: unset;
+	width: 100%;
+	height: 80px;
+	background: transparent;
+	backdrop-filter: none;
+}
+
+#nm_all_notes_list .loader_nm img {
+	max-width: 36px;
+}
+
+/* ===== Notes Pagination Inline Loader ===== */
+/* When paginating, just dim the list — no full-overlay, no big gif */
+.nm-notes-list-modal {
+	position: relative;
+	min-height: 60px;
+}
+
+.nm-notes-list-modal.nm-notes-loading {
+	opacity: 0.45;
+	pointer-events: none;
+	transition: opacity 0.2s ease;
+}
+
+.nm-notes-list-modal.nm-notes-loading::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(255, 255, 255, 0.35);
+	border-radius: 8px;
+	z-index: 2;
+}
